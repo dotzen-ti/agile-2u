@@ -1,8 +1,5 @@
 <template>
-  <div
-    :class="[
-      'flex-1 overflow-x-auto p-6',
-    ]"
+  <div class="flex-1 overflow-x-auto py-6 px-4"
   >
     <div class="flex gap-4 min-w-max">
       <KanbanColumn

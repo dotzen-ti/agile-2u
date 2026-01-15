@@ -1,8 +1,8 @@
 {
-  "$schema": "https://ui.shadcn.com/schema.json",
+  "$schema": "https://shadcn-vue.com/schema.json",
   "style": "default",
-  "rsc": false,
-  "tsx": true,
+  "typescript": true,
+  "tsx": false,
   "tailwind": {
     "config": "tailwind.config.ts",
     "css": "src/index.css",
@@ -10,11 +10,11 @@
     "cssVariables": true,
     "prefix": ""
   },
+  "framework": "vite",
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
-    "lib": "@/lib",
-    "hooks": "@/hooks"
+    "lib": "@/lib"
   }
 }
